@@ -72,13 +72,14 @@
     width: max-content;
 }
 img{
-    height:30%;
-    width:30%;
+    height:33%;
+    width:33%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-   transform: translate(118%,-45%);
+   transform: translate(108%,-45%);
+animation :fadeIn 5s;
 }
 
 .text-1a{
@@ -197,5 +198,8 @@ img{
     }
   }
   
-
+  @keyframes fadeIn{
+    0% {opacity:0.3;}
+  100% {opacity:1;}
+  }
 
