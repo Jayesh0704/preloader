@@ -5,7 +5,7 @@
     --typewriterCharacters: 24;
   }
   body{
-    background: white;
+    background: rgb(247, 247, 247);
     margin: 0;
   font-family: "Source Sans Pro", sans-serif;
   min-height: 100vh;
@@ -72,9 +72,9 @@
     width: max-content;
 }
 img{
-    height:20%;
-    width:20%;
-    transform:translate(-210%,45%)
+    height:23%;
+    width:23%;
+    transform:translate(-270%,45%)
 }
 
 .text-1a{
@@ -96,7 +96,7 @@ img{
   }
   
   .text-1a::before {
-    background: white;
+    background: rgb(247, 247, 247);
     animation: typewriter var(--typewriterSpeed)
       steps(var(--typewriterCharacters)) 0.02s forwards;
   }
@@ -127,7 +127,7 @@ img{
   }
   
   .text-2a::before {
-    background: white;
+    background: rgb(247, 247, 247);
     animation: typewriter var(--typewriterSpeed)
       steps(var(--typewriterCharacters)) 3s forwards;
   }
@@ -158,7 +158,7 @@ img{
   }
   
   .text-3a::before {
-    background: white;
+    background: rgb(247, 247, 247);
     animation: typewriter var(--typewriterSpeed)
       steps(var(--typewriterCharacters)) 6s forwards;
   }
