@@ -79,7 +79,7 @@ img{
     flex-wrap: wrap;
     justify-content: center;
    transform: translate(108%,-45%);
-animation :fadeIn 5s;
+animation :fadeIn 4.8s;
 }
 
 .text-1a{
